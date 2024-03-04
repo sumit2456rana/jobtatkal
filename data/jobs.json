@@ -1,0 +1,132 @@
+{
+  "jobs": [
+    {
+      "companyLogo": "https://skilldb-ai-resume.s3.ap-south-1.amazonaws.com/company_profile/65129f38fe0eab05718f5269_logo.svg",
+      "companyName": "Microsoft",
+      "jobRole": "Senior Software Engineer - Frontend",
+      "noOfOpenings": 2,
+      "jobTags": {
+        "exp": "Not Provided",
+        "ctc": "1 Lakh - 3 Lakh P.A",
+        "location": "Bengaluru (Karnataka)",
+        "empType": "Full-time",
+        "workType": "Hybrid"
+      },
+      "skillsRequired": [
+        "Design FLow",
+        "Agile Methodology",
+        "Java scripting languages",
+        "Node.js (Javascript Library)"
+      ],
+      "jobPosted": 9,
+      "id": "859756012318"
+    },
+    {
+      "companyLogo": "https://skilldb-ai-resume.s3.ap-south-1.amazonaws.com/company_profile/6512ae1afe0eab05718f54fe_logo.svg",
+      "companyName": "Tata Consultancy services",
+      "jobRole": "Service Desk management - Associate",
+      "noOfOpenings": 0,
+      "jobTags": {
+        "exp": "2 - 7 years",
+        "ctc": "",
+        "location": "Noida (Uttar Pradesh)",
+        "empType": "Full-time",
+        "workType": "On-site"
+      },
+      "skillsRequired": [
+        "Service Desk"
+      ],
+      "jobPosted": 6,
+      "id": "859756012319"
+    },
+    {
+      "id": "65d48650e58308ec3f831255",
+      "companyLogo": "https://skilldb-ai-resume.s3.ap-south-1.amazonaws.com/company_profile/6548feffc55870d0f616fb65_logo.svg",
+      "companyName": "deloitte",
+      "jobRole": "Adobe Campaign Developer",
+      "noOfOpenings": 0,
+      "jobTags": {
+        "exp": "5 - 7 years",
+        "ctc": "",
+        "location": "Bengaluru (Karnataka)",
+        "empType": "Full-time",
+        "workType": "Hybrid"
+      },
+      "skillsRequired": [
+        "Adobe Campaign",
+        "Javascript"
+      ],
+      "jobPosted": 1
+    },
+    {
+      "id": "c5ca",
+      "companyLogo": "https://skilldb-ai-resume.s3.ap-south-1.amazonaws.com/company_profile/65817c2750e9613e3fcf3f30_logo.svg",
+      "companyName": "infosys",
+      "jobRole": "IDAM Architect",
+      "noOfOpenings": 1,
+      "jobTags": {
+        "exp": "Fresher",
+        "ctc": "",
+        "location": "Bengaluru East (Karnataka)",
+        "empType": "Full-time",
+        "workType": "Hybrid"
+      },
+      "skillsRequired": [
+        "Database Management Systems",
+        "Enterprise Solution Design",
+        "LDAP",
+        "Organizational Initiatives",
+        "Product Demonstration",
+        "Technical Solution Design"
+      ],
+      "jobPosted": 7
+    },
+    {
+      "id": "d5fa",
+      "companyLogo": "https://skilldb-ai-resume.s3.ap-south-1.amazonaws.com/company_profile/6509884f3eecc37fd4001514_logo.png",
+      "companyName": "Adobe",
+      "jobRole": "Strategic Pursuit Leader - India",
+      "noOfOpenings": 0,
+      "jobTags": {
+        "exp": "Fresher",
+        "ctc": "",
+        "location": "Ahmedabad (Gujarat)",
+        "empType": "Full-time",
+        "workType": "On-site"
+      },
+      "skillsRequired": [
+        "Coaching",
+        "Communication",
+        "Deals",
+        "Financial Instruments",
+        "Negotiation",
+        "Oil Pipeline Development",
+        "Sales Effectiveness",
+        "Sales Pipeline Development",
+        "Sealing",
+        "Team Management"
+      ],
+      "jobPosted": 6
+    },
+    {
+      "id": "65bcd1d318a1a062582010a0",
+      "companyLogo": "https://skilldb-ai-resume.s3.ap-south-1.amazonaws.com/company_profile/65818e95cd3c98d6b82347f4_logo.svg",
+      "companyName": "Accenture",
+      "jobRole": "Recruiting Associate",
+      "noOfOpenings": 28,
+      "jobTags": {
+        "exp": "1-3 years",
+        "ctc": "",
+        "location": "Agra (Uttar Pradesh)",
+        "empType": "Full-time",
+        "workType": "On-site"
+      },
+      "skillsRequired": [
+        "Interpersonal Communications",
+        "Problem Solving",
+        "Talent Management"
+      ],
+      "jobPosted": 10
+    }
+  ]
+}

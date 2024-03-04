@@ -1,0 +1,19 @@
+.menuItems > img{
+    height: 9.375rem;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.menuItems > h1 {
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'SF Pro Display', sans-serif;
+    color: #6D7175;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.menuItems > ul {
+    list-style-type: none;
+}

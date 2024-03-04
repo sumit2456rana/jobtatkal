@@ -1,0 +1,29 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+@font-face {
+    font-family: 'ProductSans-Medium';
+    src: url('./assets/FontsFree-Net-ProductSans-Medium.ttf') format('woff2'),
+         url('./assets/FontsFree-Net-ProductSans-Medium.ttf') format('woff');
+
+  }
+:root {
+    --color-dark-1: #303030;
+
+    --color-green-1: rgb(0,128,96);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+input {
+    border: none;
+    outline: none;
+    background-color: inherit;
+}

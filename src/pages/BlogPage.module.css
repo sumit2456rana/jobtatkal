@@ -1,0 +1,46 @@
+.blogPage {
+    max-width: 800px;
+    padding: 0 20px;
+    font-family: 'ProductSans-Medium', sans-serif;
+}
+
+.blogPage>h2 {
+    font-size: 70px;
+    padding: 0;
+    text-transform: none;
+}
+
+.blogPage>p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: var(--color-dark-1);
+}
+
+.searchContainer {
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.blogTags {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    gap: 5px;
+}
+
+.blogTags>div {
+    padding: 4px 8px;
+    border-radius: 0.5rem;
+    color: #616161;
+    background-color: #EBECEC;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .blogPage {
+        padding: 0 10px;
+    }
+}
+

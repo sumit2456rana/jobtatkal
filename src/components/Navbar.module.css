@@ -1,0 +1,117 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1144px;
+    height: 85px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+    grid-auto-flow: column;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 15px;
+}
+
+.scrollDiv {
+    transition: all .1s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.scrolled {
+    background-color: #fff;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+    color: var(--color-dark-1);
+    font-weight: 600;
+}
+
+.logo {
+    display: flex;
+    width: fit-content;
+    gap: 3.125rem;
+    padding-left: 30px;
+}
+
+.logo>ul>li:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.logo>ul>li:hover {
+    color: var(--color-green-1);
+    cursor: pointer;
+}
+
+.rightContainer {
+    display: flex;
+    justify-content: end;
+    margin: auto 0;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.rightContainer>a:nth-child(2) {
+    font-weight: 600;
+    font-family: inherit;
+    margin-right: 30px;
+}
+
+.rightContainer>a:nth-child(2):hover {
+    color: var(--color-green-1);
+}
+
+.backDropClose {
+    opacity: 0;
+}
+
+.backDropOpen {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 1;
+    transition: opacity .3s cubic-bezier(.4, 0, .2, 1);
+    position: absolute;
+}
+
+.hamburgerIcon {
+    display: none;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-right: -11px;
+}
+
+@media (max-width: 1000px) {
+    .search {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hamburgerIcon {
+        display: flex;
+        padding-right: 20px;
+    }
+
+    .rightContainer {
+        display: none;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    .logo>ul {
+        display: none;
+    }
+
+}

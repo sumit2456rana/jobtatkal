@@ -1,0 +1,23 @@
+.heading {
+    padding: 30px 0px;
+    font-size: 50px;
+    font-family: 'ProductSans-Medium', sans-serif;
+    letter-spacing: -2px;
+    font-weight: 500;
+    color: var(--color-dark-1);
+    text-transform: capitalize;
+    line-height: 110%;
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 30px !important;
+        letter-spacing: -1px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .heading {
+        font-size: 40px;
+    }
+}

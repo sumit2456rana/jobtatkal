@@ -1,0 +1,110 @@
+.signup {
+    min-height: 100vh;
+    display: flex;
+    background-color: #e2f1ea;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.signup > div:first-child {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup > div:last-child {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    width: 100%;
+    height: 100vh;
+    max-height: 86vh;
+    position: sticky;
+    top: 0;
+}
+
+.signup > div:last-child > img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.signUpContainer {
+    max-width: 540px;
+    width: 100%;
+    padding: 50px;
+}
+.signUpContainer > div {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: .5rem;
+    box-shadow: 0rem .125rem .25rem rgba(31, 33, 36, .1), 0rem .0625rem .375rem rgba(31, 33, 36, .05);;
+}
+
+.signUpContainer > div > h1 {
+    font-weight: 400;
+    margin-top: 50px;
+    line-height: 114%;
+    font-size: 28px;
+}
+.signUpContainer > div > p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.btns {
+    margin-top: 20px;
+}
+.btns > div{
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+.btns > div > div {
+    width: 39.5%;
+    transition: all .7s cubic-bezier(.4,0,.2,1);
+}
+.btns > div > div > button {
+    width: 100%;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: .3rem;
+}
+.selected > button , .selected > button:hover , .btns > div > div > button:hover{
+    background-color: #0c3b2f;
+}
+
+.alreadyAcc {
+    padding: 50px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 500;
+    color: #8c9196;
+    font-size: 14px;
+}
+.alreadyAcc a {
+    color: #008060;
+}
+.termsPrivacy {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 1024px) {
+    .signup > div:last-child {
+        display: none;
+    }
+}
+
+@media (max-width: 490px) {
+    .signUpContainer {
+        padding: 0;
+    }
+    .signUpContainer > div {
+        border-radius: 0;
+    }
+}

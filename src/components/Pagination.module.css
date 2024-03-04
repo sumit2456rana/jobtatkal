@@ -1,0 +1,57 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'ProductSans-Medium', sans-serif;
+    font-weight: 500;
+    margin: 10px 0 26px 0;
+    flex-wrap: wrap;
+}
+
+.pagination > div {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+.resultsPerPage {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    cursor: pointer;
+}
+.resultsPerPageDropdown {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    z-index: 10;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    transition: opacity 0.2s cubic-bezier(.4,0,.2,1);
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);
+}
+.resultsPerPageDropdown > p {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.resultsPerPageDropdown > p:hover {
+    background-color: #f6f7f8;
+    cursor: pointer;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #babec3;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.arrow > svg {
+    font-size: 0.9rem;
+    color: #fff;
+}

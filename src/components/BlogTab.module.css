@@ -1,0 +1,145 @@
+.blogTab {
+    background-color: #F1F8F5;
+    padding: 50px 20px;
+    font-family: 'ProductSans-Medium', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.header > p:first-child {
+    text-transform: uppercase;
+    color: var(--color-green-1);
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.header > h1 {
+    margin-top: 20px;
+    font-size: 50px;
+    letter-spacing: -2px;
+    line-height: 110%;
+    font-weight: 500;
+}
+
+.header > p:last-child {
+    margin-top: 10px;
+    color: var(--color-dark-1);
+    font-size: 1.1rem;
+}
+
+.blogCarousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-left: calc(calc(100% - 1084px)/2);
+    gap: 20px;
+}
+
+.blogCarousel::-webkit-scrollbar{
+    width: 0;
+}
+.blogCarousel > div {
+    min-width: 522px;
+    max-width: 522px;
+    display: flex;
+    gap: 1.25rem;    
+    color: var(--color-dark-1);
+}
+.coverImg {
+    min-width: 251px;
+    max-width: 251px;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.coverImg img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: all .3s;
+}
+.blogContent > p:first-child {
+    color: var(--color-green-1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.blogContent > h1 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+.blogContent > h1:hover  {
+    color: var(--color-green-1);
+    cursor: pointer;
+}
+.blogContent > p:last-child {
+    line-height: 140%;
+    font-size: 16px;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto 0 auto;
+    max-width: 1124px;
+    padding: 0 20px;
+}
+
+.btns > a {
+    padding: 0 24px;
+    border: 1px solid var(--color-green-1);
+    border-radius: .5rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-green-1);
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.btns > button {
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .header{
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .header > h1 {
+        font-size: 32px;
+    }
+    .header > p:last-child {
+        font-size: 1rem;
+    }
+    .btns {
+        padding: 0;
+    }
+    .btns > a {
+        margin: 0;
+    }
+}

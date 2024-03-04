@@ -1,0 +1,45 @@
+.hr {
+    margin: 20px 0;
+    height: 1px;
+    background-color: #e1e3e5;
+    width: 100%;
+}
+
+.formItem {
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #616a75;
+}
+.companySlug {
+    display: flex;
+    border: 1px solid #898f94;
+    border-radius: .3rem;
+    padding: 8px 12px;
+    line-height: 1.25rem;
+    margin: 5px 0;
+}
+.companySlug > input {
+    color: #616a75;
+}
+.companySlug:focus-within {
+    outline: 1px solid blue;
+}
+.button {
+    margin-top: 1rem;
+}
+.button > button {
+    width: 100%;
+    height: 2.7rem;
+    background-color: var(--color-green-1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button > button:hover {
+    background-color: #0c3b2f;
+}

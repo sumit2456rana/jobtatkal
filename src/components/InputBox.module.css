@@ -1,0 +1,20 @@
+.inputBox > label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #616a75;
+}
+.inputBox > input {
+    display: block;
+    font-size: .875rem;
+    width: calc(100% - 27px);
+    padding: 8px 12px;
+    line-height: 1.25rem;
+    border: 1px solid #898f94;
+    border-radius: .3rem;
+    color: #616a75;
+}
+
+.inputBox > input:focus {
+    outline: 1px solid blue;
+}

@@ -1,0 +1,22 @@
+.item {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: .5px;
+    line-height: 20px;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    font-family: 'SF Pro Display', sans-serif;
+    color: var(--color-dark-1);
+}
+.item > a {
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: var(--color-green-1);
+    color: #fff;
+    border-radius: 6px;
+}

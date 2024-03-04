@@ -1,0 +1,140 @@
+.jobPreview {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: 'ProductSans-Medium', sans-serif;
+    flex-wrap: wrap;
+}
+.jobData {
+    max-width: 808px;
+}
+.jobData > h2 {
+    font-size: 70px;
+    padding-top: 0;
+}
+.companyData {
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    align-items: flex-end;
+    gap: 15px;
+    color: var(--color-dark-1);
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.companyData > div:first-child {
+    display: flex;
+    align-items: flex-end;
+}
+.companyData > div:first-child img {
+    margin-right: 10px;
+    height: 30px;
+}
+.hr {
+    width: auto;
+    height: 1px;
+    background-color: #E1E3E5;
+    margin: 20px 0;
+}
+
+.skillsRequired > h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #6D7175;
+}
+
+.skillsRequired > ul {
+    list-style-type: none;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skillsRequired > ul > li {
+    font-size: 12px;
+    color: var(--color-dark-1);
+    background-color: #e3e3e3;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.applyingBtns {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.applyingBtns > button {
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.applyingBtns > button:last-child {
+    background-color: transparent;
+    color: var(--color-green-1);
+    border: 1px solid var(--color-green-1);
+}
+
+.share {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* padding-top: 30px; */
+}
+
+.share > div:first-child {
+    display: flex;
+    gap: 7px;
+    text-transform: uppercase;
+    font-size: 12px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.share > div:last-child {
+    display: flex;
+    gap: 7px;
+}
+
+.share > div:last-child button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.copyUrl {
+    position: relative;
+}
+.copyUrl > span {
+    position: absolute;
+    top: -45px;
+    left: -30px;
+    z-index: 10;
+    width: 90px;
+    background-color: #253254;
+    color: #fff;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border-radius: .3rem;
+}
+
+@media (max-width: 480px) {
+    .jobPreview {
+        padding: 0px 10px;
+    }
+    .jobData > h2 {
+        font-size: 42px !important;
+    }
+    .companyData {
+        font-size: 10px;
+    }
+}

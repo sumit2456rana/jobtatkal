@@ -1,0 +1,61 @@
+.topCompanies {
+    width: 224px;
+}
+.companyCard {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #D2D5D8;
+    border-radius: 10px;
+    font-family: 'ProductSans-Medium', sans-serif;
+    margin-bottom: 10px;
+    hyphens: auto;
+    min-height: 224px;
+    height: auto;
+}
+.companyCard:hover {
+    border-color: var(--color-green-1);
+    cursor: pointer;
+}
+.companyLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.companyCard > h3 {
+    margin: 12px 0;
+    font-weight: 500;
+    font-family: inherit;
+    font-size: 22px;
+    word-break: break-all;
+    color: var(--color-dark-1);
+}
+
+.companyData {
+    list-style-type: none;
+}
+.companyData > span {
+    display: inline-block;
+    line-height: 16px;
+    padding: 4px 8px;
+    background-color: #e3e3e3;
+    margin: 1px 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.activeJobs {
+    margin-top: 10px;
+    padding: 2px 8px;
+    display: inline-block;
+    background-color: #CDFEE1;
+    color: var(--color-green-1);
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+@media (max-width: 1100px) {
+    .topCompanies {
+        display: none;
+    }
+}

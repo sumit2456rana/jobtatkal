@@ -1,0 +1,94 @@
+.hr {
+    margin: 20px 0;
+    height: 1px;
+    background-color: #e1e3e5;
+    width: 100%;
+}
+.cvInputBox {
+    margin-top: 1rem;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    max-height: 90px;
+    border: 1px dashed #abb1ba;
+    border-radius: .5rem;
+}
+.cvInputBox:hover {
+    background-color: #f9fafb;
+    cursor: pointer;
+}
+.fileInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.uploadCV {
+    font-size: 12px;
+    color: #2463bc;
+    font-weight: 500;
+    padding: 3px 6px;
+    background-color: #f0f5fd;
+    border-radius: 3px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.doc {
+    font-size: 12px;
+    color: #616a75;
+    margin-top: 5px;
+}
+
+.selectedFile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.selectedFile > div:first-child {
+    padding: 5px;
+    border: 1px solid #e1e3e5;
+    border-radius: 3px;
+    color: #87909b;
+}
+
+.formItem {
+    margin-top: 1rem;
+}
+
+.button {
+    margin-top: 1rem;
+}
+.button > button {
+    width: 100%;
+    height: 2.7rem;
+    background-color: var(--color-green-1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button > button:hover {
+    background-color: #0c3b2f;
+}
+
+.successRate {
+    font-size: 14px;
+    color: #8c9196;
+    font-weight: 500;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin: 3px 0;
+}

@@ -1,0 +1,27 @@
+.job {
+    max-width: 624px;
+    width: 100%;
+    flex: 1;
+}
+
+
+
+.totalResults {
+    font-size: 12px;
+    font-family: 'ProductSans-Medium', sans-serif;
+    color: var(--color-dark-1);
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.noResultsFound {
+    font-size: 1.2rem;
+    font-family: 'ProductSans-Medium', sans-serif;
+    font-weight: 500;
+}
+
+@media (max-width: 1100px) {
+    .job {
+        max-width: 100%;
+    }
+}

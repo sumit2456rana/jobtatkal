@@ -1,0 +1,111 @@
+.jobCard {
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #d2d5d8;
+    padding: 15px;
+    font-family: 'ProductSans-Medium', sans-serif;
+    margin-bottom: 15px;
+    transition: box-shadow .3s ease-in-out;
+    cursor: pointer;
+}
+.jobCard:hover {
+    box-shadow: 0 14px 40px rgba(30,10,58,.1);
+}
+.companyLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.companyLogo > img {
+    height: 30px;
+}
+.companyName {
+    margin: 10px 0;
+    text-transform: uppercase;
+    color: #6D7175;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.jobTitle {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.skillsRequired {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.skillsRequired > button {
+    margin-right: 10px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+.skillsRequired > button:last-child {
+    margin-right: 0;
+}
+.skillsRequired > button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 25px;
+    right: -31px;
+    -webkit-backdrop-filter: blur(.1px);
+    backdrop-filter: blur(0.1px);
+    background: linear-gradient(270deg,transparent,#fafbfb);
+}
+.skillsRequired > button:last-child::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 25px;
+    left: -31px;
+    background: linear-gradient(90deg,transparent,#fafbfb);
+    backdrop-filter: blur(0.1px);
+}
+.skillsRequired > ul {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin-right: 10px;
+    width: 100%;
+}
+.skillsRequired > ul::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.skillsRequired > ul > li {
+    width: fit-content;
+    list-style-type: none;
+    white-space: nowrap;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: #E4E5E7;
+    padding: 4px 8px;
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 16px;
+    margin-right: 5px;
+}
+.jobPosted {
+    margin-top: 25px;
+    font-size: 12px;
+    letter-spacing: .5px;
+    color: #6D7175;
+}
+
+@media (max-width: 480px) {
+    .jobTitle {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
