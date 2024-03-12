@@ -60,7 +60,7 @@ const FilterTab = ({ openFiltersTab, setOpenFiltersTab }) => {
         }
     }, [openFiltersTab])
     return (
-        <div style={{ bottom: openFiltersTab ? '0' : '-100%' }} className={styles.filterTab}>
+        <div style={{ bottom: openFiltersTab ? '0' : '-100vh' }} className={styles.filterTab}>
             <div className={styles.header}>
                 <p>Filters</p>
                 <CloseIcon onClick={() => setOpenFiltersTab(false)} />
