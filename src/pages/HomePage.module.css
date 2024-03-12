@@ -39,6 +39,9 @@
     .mainContainer > div:first-child {
         padding: 0 10px;
     }
+    .footer {
+        margin-bottom: 60px;
+    }
 }
 
 @media (max-width: 768px) {

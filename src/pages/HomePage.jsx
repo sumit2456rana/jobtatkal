@@ -33,7 +33,9 @@ const HomePage = () => {
         <FilterTab openFiltersTab={openFiltersTab} setOpenFiltersTab={setOpenFiltersTab} />
         <BlogTab />
         <SignupOptions />
-        <Footer />
+        <div className={styles.footer}>
+          <Footer />
+        </div>
       </div>
     </>
   )
